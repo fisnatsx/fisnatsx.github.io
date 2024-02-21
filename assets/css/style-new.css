@@ -814,7 +814,7 @@ main.touch .main-wrap {
   color: var(--color-white);
   line-height: 1;
   font-size: 17.5vw;
-  font-size: max(9em, 1vw);
+  font-size: max(8em, 1vw);
   white-space: nowrap;
   pointer-events: none;
   margin: 0;
