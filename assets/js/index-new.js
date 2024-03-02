@@ -1171,7 +1171,7 @@ function initTimeZone() {
   const timeSpan = document.querySelector("#timeSpan");
 
   const optionsTime = {
-    timeZone: "Europe/Amsterdam",
+    timeZone: "Asia/Jakarta",
     timeZoneName: "short",
     // year: 'numeric',
     // month: 'numeric',
