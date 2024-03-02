@@ -722,6 +722,13 @@ video.overlay {
   transition: var(--animation-primary);
 }
 
+.btn-link.btn-left-top .credit img {
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+
 .btn-link.btn-left-top:hover .credit span {
   transform: translate(0, 0) rotate(360deg);
 }

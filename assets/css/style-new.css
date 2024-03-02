@@ -606,6 +606,14 @@ main.touch .main-wrap {
   padding-right: var(--gap-padding);
 }
 
+.bottom-footer .credits p img{
+  position: relative;
+  display: absolute;
+  width: 0.85em;
+  height: 0.85em;
+  top: -1px;
+}
+
 .socials li {
   display: inline-flex;
   font-size: 0.85em;

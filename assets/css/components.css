@@ -36,10 +36,19 @@
   position: relative;
   display: inline-flex;
   border-radius: 50%;
-  background: url("../img/favicon.png") center center no-repeat;
+  background: url("../img/profile-picture.jpg") center center no-repeat;
   background-size: cover;
   width: clamp(4.5em, 6.5vw, 8em);
   height: clamp(4.5em, 6.5vw, 8em);
+}
+
+.logo-picture {
+  position: relative;
+  display: inline-flex;
+  background: url("../img/logo.png") center center no-repeat;
+  background-size: cover;
+  width: clamp(0.7em, 2.7vw, 6em);
+  height: clamp(0.7em, 2.7vw, 6em);
 }
 
 /* ------------------------- Pattern Dots -------------------------------------------------- */
@@ -50,7 +59,7 @@
   height: 100%;
   width: 100%;
   pointer-events: none;
-  background: url("../img/dotted.svg") bottom right;
+  background: url("../img/favicon.png") bottom right;
   background-size: 1.25em 1.25em;
   position: absolute;
 }
